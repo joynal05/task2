@@ -1,0 +1,56 @@
+.sign-up-form {
+    width: 600px;
+    margin: auto;
+    padding: 60px;
+    background: #fff;
+}
+.single-field-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.single-field-item input {
+    border: 0;
+    background: #eee;
+    padding: 10px 10px;
+}
+.single-field-item h3 {
+    margin-bottom: 10px;
+}
+.form-head {
+    margin-bottom: 20px;
+}
+.single-field-item.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.single-field-item.buttons .button {
+    width: 50%;
+    margin: 0;
+    border: 0;
+    padding: 13px 10px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.button.censel {
+    background: #b52828;
+}
+.button.signup {
+    background: #126812;
+}
+.single-field-item.buttons .button:hover {
+    opacity: 1;
+}
+.remember-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.term {
+    margin-bottom: 20px;
+}
